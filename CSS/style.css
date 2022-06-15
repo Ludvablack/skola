@@ -1,0 +1,104 @@
+
+
+
+
+
+.background{
+    background: url("./img/Ford-T.jpg");
+    background-size:cover;
+    background:no-repeat;
+    background-attachment:fixed;
+}
+
+header{
+    background-color:blue;
+    padding: 10px;
+}
+
+*{transition:all 0.3 ease-in-out;}
+.container{
+    clear:both;
+    overflow:auto;
+}
+
+body{background-color:rgb(43, 226, 156);
+margin-bottom: 0px;
+padding: 0px;
+}
+nav{float:right;
+padding-right: 10 px;
+}
+
+ul li{
+    display: inline-block; padding:10px;
+    font-size:30px; font-family:raleway;
+    color:aquamarine;
+}
+ul li:hover{
+    color:rgb(255, 255, 255);
+}
+.modul {
+    display:grid;
+    color:white;
+    
+}
+.modul1{
+    margin-top: 50px;
+    margin-left: 800px ;
+}
+.modul2{
+    padding-top:100px;
+    margin-right:100px;
+    margin-left:50px;
+    margin-bottom:20px;
+    color:#f2f2f2;
+    font-size: 20px;
+    text-align:center;
+}
+.modul2 h1{
+    color:blueviolet;
+}
+.paticka{
+    margin-top:0px;
+    margin-bottom: 0px;
+    background-color:white;
+    color:black;
+    text-align:center;
+    padding-top:0px;
+    padding-bottom:0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+
+
+
+
+.loga{
+    display:grid;
+}
+.loga1:hover,.loga2:hover,.loga3:hover{
+    opacity:0.3;
+}
+.info{
+    margin-top: 80px;
+    text-align: center;
+}
+.info1{
+    text-align: center;
+    color: red;
+    margin-top: 50px; 
+}
+@media (min-width: 1200px){
+    .loga { grid-template-columns: repeat(2,1fr);}
+}
+@media (max-width:800px){
+    .modul2{
+        display:grid;
+        padding: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    }
+@media (min-width: 1200px) {
+    .modul {grid-template-columns: repeat (2,1fr);}
+}
